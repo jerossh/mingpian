@@ -1,0 +1,23 @@
+{
+  "name": "mingpian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerossh/mingpian.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerossh/mingpian/issues"
+  },
+  "homepage": "https://github.com/jerossh/mingpian#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "koa": "^2.0.0"
+  }
+}
