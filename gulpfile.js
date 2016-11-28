@@ -27,7 +27,7 @@ gulp.task('start', ['serve'], function() {
   browserSync.init(null, {      // null 干什么用？
       proxy: 'http://localhost:' + config.port,   // 监控代理地址
       files: ['./public', './views'],   // 监控的文件
-      open: false,                 // 是否打开浏览器
+      open: true,                 // 是否打开浏览器
       browser: 'google chrome',         // 打开的浏览器名称
       notify: false,                    // 浏览器不现实通知，不知道什么意思
       port: 5000                        // 映射到的地址

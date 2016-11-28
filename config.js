@@ -1,5 +1,5 @@
 module.exports = {
-  'name': 'type-here-program-name',
-  'secret': 'program',
-  'port': 3000,
+  'name': 'mingpian',
+  'secret': 'test',
+  'port': 3009,
 }

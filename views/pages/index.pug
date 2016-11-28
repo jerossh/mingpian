@@ -1,4 +1,7 @@
 extends ../layout
 block content
-  .container
-    p 项目可以开始了
+  form(method="post", action="/we/get", enctype="application/x-www-form-urlencoded", role="form")
+    label 文章链接
+    textarea(rows="3", cols="20", name="article[link]"  autofocus)
+    button(type="sublimt") 添加
+    button(type="reset") 清空
