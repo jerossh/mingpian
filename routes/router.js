@@ -15,7 +15,8 @@ module.exports = function(app){
 
   // 路由开始
   // 前端页面
-  app.get('/', Index.new);
+  app.get('/get-article', Index.new);
+  app.post('/get-article', Index.getArticle);
 
   // 路由结束
 
